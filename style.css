@@ -124,3 +124,39 @@ button:hover{
     scale: 1.08;
     cursor: pointer;
 }
+
+.navbar {
+    color: white;
+    height: 10%;
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    font-weight: 800;
+    font-size: large;
+}
+
+.navbar ul li {
+    border:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(45px);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar ul li:hover {
+    scale: 1.1;
+    box-shadow: 1px 1px 15px white;
+    cursor: pointer;
+}
+
