@@ -18,7 +18,7 @@
 
 .chat-box {
     width: 55%;
-    height: 75%;
+    height: 70%;
     /* border: 1px white solid; */
     display: flex;
     flex-direction: column;
@@ -127,14 +127,16 @@ button:hover{
 
 .navbar {
     color: white;
-    height: 10%;
+    height: 20%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     gap: 15px;
     font-weight: 800;
@@ -142,7 +144,7 @@ button:hover{
 }
 
 .navbar ul li {
-    border:1px solid white;
+    /* border:1px solid white; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,6 +159,34 @@ button:hover{
 .navbar ul li:hover {
     scale: 1.1;
     box-shadow: 1px 1px 15px white;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.127);
+    backdrop-filter: blur(15px);
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.first-line h4 {
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 800;
+}
+
+.first-line ul {
+    list-style-type: none;
+    color: white;
+}
+
+.first-line li:hover {
+    scale: 1.1;
     cursor: pointer;
 }
 
